@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Taruna Mulugur</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+</head>
+<body class="bg-navy">
+    <header class="pb-5 mb-5">
+        <div id="navbar" class="d-flex flex-wrap justify-content-around changeColorr">
+            <a class="changeColorRevv" href="#home">Home</a>
+            <a class="changeColorRevv" href="#projects">Projects</a>
+            <a class="changeColorRevv" href="#skills">Skills</a>
+            <a class="changeColorRevv" href="#certs">Certifications</a>
+            <a class="changeColorRevv" href="mailto:t.mulugur@gmail.com">Contact Me</a>
+        </div>
+    </header>
+   
+   <section id="home" class="d-flex flex-column align-items-center justify-content-center text-center" style="height: fit-content;">
+    <img src="./assets/IMG_9147.JPG" alt="person" class="display rounded-circle img-thumbnail m-0" width="150px" height="150px">
+    <h1 class="text-orange pt-3 anton-sc-regular">Lalitha Taruna Vishalakshi Mulugur</h1>
+    <p class="fs-4 p-5 text-orange">Hello, I am currently a student at Chaitanya Bharathi Institute of Technology. This is my portfolio website made from HTML and CSS. Check out some of the projects and skills I have learned along the way. Stay tuned for more updates!</p>
+    <div class="container">
+        <div class="row">
+        <a href="https://github.com/Taruna-M" class="col-12 col-md-4 py-2 px-3"><button class="btn bg-orange text-navy">GITHUB</button></a>
+        <a href="./assets/TarunaResume.pdf" class="col-12 col-md-4 py-2 px-3"><button class="btn bg-orange">RESUME</button></a>
+        <a href="https://www.linkedin.com/in/taruna-mulugur-3194692bb/" class="col-12 col-md-4 py-2 px-3"><button class="btn bg-orange">LINKEDIN</button></a>
+    </div>
+   </section>
+   <section id="projects" class="bg-beige d-flex flex-column align-items-center justify-content-center p-5" style="height: fit-content">
+    <h1 class="text-navy text-center anton-sc-regular">PROJECTS</h1>
+    <hr style="width: 100%; background-color:blue ; color: blue;"/>
+    <div class="border-navy container bg-navy-trans text-black rounded m-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="p-2 m-0 anton-sc-regular">NEO Hazard Prediction Model</h3>
+                <h5 class="py-3">Model Made With:
+                    <span>
+                        <img class="px-1" src="https://img.icons8.com/?size=100&id=38297&format=png&color=000000" alt="IBM" height="50px" width="50px">
+                        <img src="./assets/ibm-cloud.256x240.png" alt="IBM cloud" height="40px" width="40px">
+                        <img src="https://img.icons8.com/?size=100&id=x0V8L9HB4W8c&format=png&color=000000" alt="IBM Watson" height="50px" width="50px">
+                    </span>
+                </h5>
+                <h5 class="py-3">Web Application Made With:
+                    <span>
+                        <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JS" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="react js" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000" alt="node js" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=122637&format=png&color=000000" alt="express js" height="50px" width="50px">
+                    </span>
+                </h5>
+                <div class="pb-4">
+                    <div class="d-flex flex-wrap justify-content-space-between">
+                      <a href="https://github.com/Taruna-M/neo-api" class="mx-2 mb-2">
+                        <button class="btn btn-dark">BACKEND</button>
+                      </a>
+                      <a href="https://github.com/Taruna-M/neo" class="mx-2 mb-2">
+                        <button class="btn btn-dark">FRONTEND</button>
+                      </a>
+                      <a href="https://neo-yali.onrender.com/" class="mx-2 mb-2">
+                        <button class="btn btn-dark">WEBSITE</button>
+                      </a>
+                    </div>
+                  </div>
+                <p>Using AutoAI from IBM Watson Studio, a machine learning model built on Extra Trees Classifier algorithm to predict if near-earth objects are hazardous towards Earth. The training is done on hazardous/non-hazardous classified objects from NASA's public database. The model is currently based on objects orbiting Earth, will further improve the model's accuracy to consider objects orbiting other planets. The model is deployed in IBM Watson Studio and integrated into a web application through a public API generated at the time of deployment. For real-time data prediction, the user can provide the ID of registered objects and through NASA's Open API the required input features are extracted, processed and fed into the model for prediction.</p>
+            </div>
+            <div class="col-md-6 display">
+                <video width="100%" autoplay loop muted >
+                    <source src="./assets/neo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="border-navy container bg-navy-trans text-black rounded m-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="p-2 m-0 anton-sc-regular">Voice Controlled MacOS Application Launcher</h3>
+                <h5 class="py-3">Made With:
+                    <span>
+                        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python" height="50px" width="50px">
+                    </span>
+                </h5>
+                <div class="pb-4">
+                    <a href="https://github.com/Taruna-M/Jarvis-Voice-Assistant-Basic" class="py-3"><button class="btn btn-dark">GITHUB</button></a>
+                </div>
+                <p>A basic application launcher which opens any Mac OS application with the '.app' extension, Utilises the Mac OS 'say' command to convert text to speech and 'speech recognition' Python library to recognise user's voice with Google Speech Recognition API. To end the program user must say 'goodbye'.</p>
+            </div>
+            <div class="col-md-6 display">
+                <video width="100%" autoplay loop muted >
+                    <source src="./assets/jarvis.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="border-navy container bg-navy-trans text-black rounded m-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="p-2 m-0 anton-sc-regular">Online Voting Website</h3>
+                <h5 class="py-3">Made With:
+                    <span>
+                        <img src="https://img.icons8.com/?size=100&id=74402&format=png&color=000000" alt="mongodb" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=122637&format=png&color=000000" alt="express js" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="react js" height="50px" width="50px">
+                        <img src="https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000" alt="node js" height="50px" width="50px">
+                    </span>
+                </h5>
+                <p>This website was built for the community I live in to avoid contact during COVID-19. The website provides the visual results, takes one vote per flat in the community, and after a vote is cast the voter cannot login again till next term. The backend is under development and will be released into Github soon.</p>
+            </div>
+            <div class="col-md-6 display">
+                <img src="./assets/ovs.png" alt="website" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="border-navy container bg-navy-trans text-black rounded m-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3 class="p-2 m-0 anton-sc-regular">Connect Four</h3>
+                <h5 class="py-3">Made With:
+                    <span>
+                        <img src="https://img.icons8.com/?size=100&id=2572&format=png&color=000000" alt="mongodb" height="50px" width="50px">
+                    </span>
+                </h5>
+                <div class="pb-4">
+                    <a href="https://github.com/Taruna-M/Connect-Four" class="py-3"><button class="btn btn-dark">GITHUB</button></a>
+                </div>
+                <p>This Java program, developed using JavaFX, implements the Connect Four game. The program allows two players to take turns dropping discs into a 7x6 grid. The goal is to connect four discs vertically, horizontally, or diagonally. The application features a graphical interface where players can interact and see the game progress.</p>
+            </div>
+            <div class="col-md-6 display">
+                <video width="100%" autoplay loop muted>
+                    <source src="./assets/cfour.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="skills" class="d-flex flex-column align-items-center p-5" style="height: fit-content;" >
+    <h1 class="text-orange text-center anton-sc-regular">SKILLS</h1>
+    <hr style="width: 100%; background-color:#FEAE6F ; color: #FEAE6F;"/>
+    <div class="skillsIcons text-orange d-flex text-center flex-wrap hover01 justify-content-center">
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML" height="75px" width="75px">
+            <figcaption>HTML</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS" height="75px" width="75px">
+            <figcaption>CSS</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JS" height="75px" width="75px">
+            <figcaption>JAVASCRIPT</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt="React" height="75px" width="75px">
+            <figcaption>REACT JS</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="Node" height="75px" width="75px">
+            <figcaption>NODE JS</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="Express" height="75px" width="75px">
+            <figcaption>EXPRESS JS</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=74402&format=png&color=000000" alt="Mongodb" height="75px" width="75px">
+            <figcaption>MONGO DB</figcaption>
+        </figure>
+    </div>
+    <div class="text-orange d-flex text-center flex-wrap hover01">
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="C" height="75px" width="75px">
+            <figcaption>C</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python" height="75px" width="75px">
+            <figcaption>PYTHON</figcaption>
+        </figure>
+        <figure>
+            <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java" height="75px" width="75px">
+            <figcaption>JAVA</figcaption>
+        </figure>
+    </div>
+   </section>
+   <section id="certs" class="bg-beige d-flex flex-column align-items-center justify-content-center p-5" style="height: fit-content">
+    <h1 class="text-navy text-center anton-sc-regular">CERTIFICATIONS</h1>
+    <hr style="width: 100%; background-color:blue ; color: blue;"/>
+    <div class="timeline d-flex flex-column align-items-center text-orange">
+		<div class="timeline-row">
+			<div class="timeline-time">
+				July-October 2023
+			</div>
+			<div class="timeline-content">
+				<img src="./assets/nptel.png" alt="nptel" class="rounded-circle" width="40px" height="40px">
+				<h6 class="pt-2 anton-sc-regular">Problem Solving Through Programming in C</h6>
+				<a href="https://drive.google.com/file/d/1CArcwCqQHGogL3W1erD70r2fvRh1G4Tn/view?usp=sharing"><button class="badge badge-pill">View Certificate</button></a>
+			</div>
+		</div>
+        <div class="timeline-row">
+			<div class="timeline-time">
+				November 2023 - January 2024
+			</div>
+			<div class="timeline-content">
+				<img src="./assets/internshala.png" alt="internshala" class="rounded-circle" width="40px" height="40px">
+				<h6 class="pt-2 anton-sc-regular">Core Java</h6>
+				<a href="https://drive.google.com/file/d/1ojh8SATDZotCGQu2pYRrTMxnUb3tOTf9/view?usp=drive_link"><button class="badge badge-pill">View Certificate</button></a>
+			</div>
+		</div>
+	</div>
+   </section>
+   <footer>
+    <p>©LTVM. All rights reserved.</p>
+  </footer>
+   <script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+   </script>
+</body>
+</html>
